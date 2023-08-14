@@ -1,0 +1,24 @@
+﻿@model Actor
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Aktör Güncelle</h2>
+    <form asp-action="Update" enctype="multipart/form-data" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label for="Name">Aktör Adı</label>
+            <input type="text" class="form-control" id="Title" name="Name" asp-for="Name">
+        </div>
+
+        
+
+        <br />
+
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </form>
+</div>
+

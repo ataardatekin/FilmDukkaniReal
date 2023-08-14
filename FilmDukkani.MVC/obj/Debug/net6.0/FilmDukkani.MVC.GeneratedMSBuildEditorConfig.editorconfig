@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FilmDukkani.MVC
+build_property.RootNamespace = FilmDukkani.MVC
+build_property.ProjectDir = C:\Users\ataar\OneDrive\Masaüstü\FilmDukkaniReal\FilmDukkani.MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ataar\OneDrive\Masaüstü\FilmDukkaniReal\FilmDukkani.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Actor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Actor/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQWN0b3JcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Director/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGlyZWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Director/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGlyZWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Director/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGlyZWN0b3JcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Home/ShowRevenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcSG9tZVxTaG93UmV2ZW51ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Movie/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcTW92aWVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Areas/Employee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Account/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Genre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Genre/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Genre/NewlyAddedMovies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcTmV3bHlBZGRlZE1vdmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Genre/RewardedMovies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcUmV3YXJkZWRNb3ZpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Home/MyCargos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeUNhcmdvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Home/MyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Home/SearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ataar/OneDrive/Masaüstü/FilmDukkaniReal/FilmDukkani.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0pgor16u4h

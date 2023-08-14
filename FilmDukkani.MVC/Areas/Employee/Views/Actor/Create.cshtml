@@ -1,0 +1,21 @@
+﻿@model ActorDTO
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Aktör Oluştur</h2>
+    <form asp-action="Create" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label for="ActorName">Aktör Adı</label>
+            <input type="text" class="form-control" id="Title" name="ActorName" asp-for="ActorName">
+        </div>
+
+
+        <br />
+        <button type="submit" class="btn btn-primary">Oluştur</button>
+    </form>
+</div>
+

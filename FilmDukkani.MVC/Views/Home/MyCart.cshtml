@@ -1,0 +1,60 @@
+﻿@model FilmDukkani.Common.Cart
+
+@{
+    ViewData["Title"] = "Sepetim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <h4>Hata!</h4>
+        <ul>
+            @foreach (var modelState in ViewData.ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="mt-5 mb-4">Sepetim</h2>
+
+            @if (Model._myCart.Count > 0)
+            {
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Sıra No</th>
+                            <th>Film Adı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var (index, item) in Model._myCart.Values.Select((value, i) => (i + 1, value)))
+                        {
+                            <tr>
+                                <td>@index</td>
+                                <td>@item.MovieName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="text-center">
+                    <a asp-action="CompleteCart" asp-controller="Home" class="btn btn-primary">Siparişi Tamamla</a>
+                </div>
+            }
+            else
+            {
+                <p>Sepetiniz boş.</p>
+            }
+        </div>
+    </div>
+</div>

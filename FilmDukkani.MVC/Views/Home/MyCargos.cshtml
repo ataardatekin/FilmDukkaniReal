@@ -1,0 +1,44 @@
+﻿@model List<Movie>
+@{
+    ViewData["Title"] = "MyCargos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container mt-5">
+    <h2>Kargolanan Filmlerim</h2>
+
+    @if (ViewBag.NoCurrentCargo != null)
+    {
+        <div class="alert alert-danger">
+            <p>@ViewBag.NoCurrentCargo</p>
+        </div>
+    }
+
+    <ul class="list-group">
+        @if (Model != null)
+        {
+            foreach (var movie in Model)
+            {
+                <li class="list-group-item">@movie.MovieName</li>
+            }
+        }
+@*        else
+        {
+            <div class="alert alert-danger">
+                <p>Mevcut kargonuz bulunmamaktadır.</p>
+            </div>
+            
+        }*@
+    </ul>
+
+    @if (Model!=null)
+    {
+        <form asp-controller="Home" asp-action="ReturnCargo" method="post">
+            <button type="submit" class="btn btn-danger">Kargoları Geri Gönder</button>
+        </form>
+    }
+
+</div>
+

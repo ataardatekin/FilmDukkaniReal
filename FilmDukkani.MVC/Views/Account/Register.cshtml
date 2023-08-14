@@ -1,0 +1,180 @@
+﻿@model RegisterDTO
+@using FilmDukkani.Entity.Entity;
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FilmDukkani</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Kayıt Ol</h5>
+                                <form asp-controller="Account" asp-action="Register" method="post">
+
+
+                                    <div class="mb-3">
+                                        <label asp-for="MailAddress"></label>
+                                        <span asp-validation-for="MailAddress"></span>
+                                        <input type="email" class="form-control" asp-for="MailAddress" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="FirstName"></label>
+                                        <span asp-validation-for="FirstName"></span>
+                                        <input type="text" class="form-control" asp-for="FirstName" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="LastName"></label>
+                                        <span asp-validation-for="LastName"></span>
+                                        <input type="text" class="form-control" asp-for="LastName" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="Username"></label>
+                                        <span asp-validation-for="Username"></span>
+                                        <input type="text" class="form-control" asp-for="Username" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="Password"></label>
+                                        <span asp-validation-for="Password"></span>
+                                        <input type="password" class="form-control" asp-for="Password" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="ConfirmPassword"></label>
+                                        <span asp-validation-for="ConfirmPassword"></span>
+                                        <input type="password" class="form-control" asp-for="ConfirmPassword" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="Address"></label>
+                                        <span asp-validation-for="Address"></span>
+                                        <input type="text" class="form-control" asp-for="Address" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="PhoneNumber"></label>
+                                        <span asp-validation-for="PhoneNumber"></span>
+                                        <input type="text" class="form-control" asp-for="PhoneNumber" />
+                                    </div>
+
+
+
+
+
+
+                                    <div class="mb-3">
+                                        <label asp-for="CreditCardNumber"></label>
+                                        <span asp-validation-for="CreditCardNumber"></span>
+                                        <input type="text" class="form-control" asp-for="CreditCardNumber" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="CardExpiryDate"></label>
+                                        <span asp-validation-for="CardExpiryDate"></span>
+                                        <input type="text" class="form-control" asp-for="CardExpiryDate" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="CvcCode"></label>
+                                        <span asp-validation-for="CvcCode"></span>
+                                        <input type="text" class="form-control" asp-for="CvcCode" />
+                                    </div>
+
+
+
+                                    <div class="mb-3">
+                                        <label asp-for="MembershipId"></label>
+                                        <span asp-validation-for="MembershipId"></span>
+                                        <select class="form-select" asp-for="MembershipId" aria-label="Membership">
+                                            <option selected>Lütfen üyelik türü seçin</option>
+                                            @foreach (var membership in ViewData["Memberships"] as List<Membership>)
+                                            {
+
+
+                                                @if (membership.Id != 7)
+                                                {
+                                                    <option value="@membership.Id">@membership.Name - @membership.Price TL. Tek seferde @membership.MovieChange, ayda @membership.MovieNumber film</option>
+                                                }
+
+
+
+                                            }
+                                        </select>
+                                    </div>
+
+
+
+
+
+
+                                    <button type="submit" class="btn btn-primary">Register</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - FilmDukkani - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/84e8baf1bc.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+    
+

@@ -1,0 +1,20 @@
+﻿@model DirectorDTO
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Yönetmen Oluştur</h2>
+    <form asp-action="Create" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label for="DirectorName">Yönetmen Adı</label>
+            <input type="text" class="form-control" id="Title" name="DirectorName" asp-for="DirectorName">
+        </div>
+
+
+        <br />
+        <button type="submit" class="btn btn-primary">Oluştur</button>
+    </form>
+</div>

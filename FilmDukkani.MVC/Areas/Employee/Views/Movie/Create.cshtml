@@ -1,0 +1,124 @@
+﻿@model MovieDTO
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container mt-5">
+    <h2>Film Oluştur</h2>
+    <form asp-action="Create" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label for="MovieRealName">Film Gerçek Adı</label>
+            <input type="text" class="form-control" id="Title" name="MovieRealName" asp-for="MovieRealName">
+        </div>
+
+        <div class="form-group">
+            <label for="MovieName">Film Türkçe Adı</label>
+            <input type="text" class="form-control" id="Title" name="MovieName" asp-for="MovieName">
+        </div>
+
+        <div class="form-group">
+            <label for="Description">Açıklama</label>
+            <textarea class="form-control" id="Description" name="Description" asp-for="Description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="ReleaseDate">Çıkış Yılı</label>
+            <input type="text" class="form-control" id="ReleaseDate" name="YearOfMovie" asp-for="YearOfMovie">
+        </div>
+
+        <div class="form-group">
+            <label for="IsTurkishSubtitles">Türkçe Altyazı</label>
+            <select class="form-control" id="IsTurkishSubtitles" name="IsTurkishSubtitles" asp-for="IsTurkishSubtitles">
+                <option value="true">Var</option>
+                <option value="false">Yok</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="IsTurkishSubtitles">Türkçe Dublaj</label>
+            <select class="form-control" id="IsTurkishDubbing" name="IsTurkishDubbing" asp-for="IsTurkishDubbing">
+                <option value="true">Var</option>
+                <option value="false">Yok</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="IsTurkishSubtitles">Surround</label>
+            <select class="form-control" id="IsSurround" name="IsSurround" asp-for="IsSurround">
+                <option value="true">Var</option>
+                <option value="false">Yok</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="ReleaseDate">Film Ödülleri</label>
+            <input type="text" class="form-control" id="MovieTrophies" name="MovieTrophies" asp-for="MovieTrophies">
+        </div>
+
+        <div class="form-group">
+            <label for="ReleaseDate">Barkod Numarası</label>
+            <input type="text" class="form-control" id="BarcodeNumber" name="BarcodeNumber" asp-for="BarcodeNumber">
+        </div>
+
+        <div class="form-group">
+            <label for="ReleaseDate">Stok Adeti</label>
+            <input type="number" class="form-control" id="UnitsInStock" name="UnitsInStock" asp-for="UnitsInStock">
+        </div>
+
+
+
+
+
+        <div class="form-group">
+            <label for="Genres">Film Türleri</label>
+            <select class="form-control" id="Genres" name="Genres" asp-for="Genres" multiple>
+                @foreach (var genre in ViewBag.SelectGenres)
+                {
+                    <option value="@genre.Value">@genre.Text</option>
+                }
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Directors">Yönetmenler</label>
+            <select class="form-control" id="Directors" name="Directors" asp-for="Directors" multiple>
+                @foreach (var director in ViewBag.SelectDirectors)
+                {
+                    <option value="@director.Value">@director.Text</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Actors">Aktörler</label>
+            <select class="form-control" id="Actors" name="Actors" asp-for="Actors" multiple>
+                @foreach (var actor in ViewBag.SelectActors)
+                {
+                    <option value="@actor.Value">@actor.Text</option>
+                }
+            </select>
+        </div>
+        <br>
+
+        <select class="form-control" id="Supplier" name="SupplierId" asp-for="SupplierId">
+            <option value="">Tedarikçi</option>
+            @foreach (var supp in ViewBag.SelectSupplier)
+            {
+                <option value="@supp.Value">@supp.Text</option>
+            }
+        </select>
+
+        <br />
+
+        <div class="form-group">
+            <label for="movieImage">Film Fotoğrafı</label>
+            <input type="file" class="form-control-file" id="movieImage" name="movieImage">
+        </div>
+
+        <br />
+        <button type="submit" class="btn btn-primary">Oluştur</button>
+    </form>
+</div>

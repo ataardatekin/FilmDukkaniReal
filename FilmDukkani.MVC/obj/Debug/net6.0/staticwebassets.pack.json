@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FilmDukkani.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FilmDukkani.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\02947b60-22bc-42cb-9f84-dd444a9f48ca.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\02947b60-22bc-42cb-9f84-dd444a9f48ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\06e0557e-b023-48b0-b4f7-e886578d98aa.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\06e0557e-b023-48b0-b4f7-e886578d98aa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\4dcd54b5-982f-4544-bb9e-a8aca7a96174.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\4dcd54b5-982f-4544-bb9e-a8aca7a96174.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\70ed16bc-0f3b-40f3-8228-7704c90e4aad.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\70ed16bc-0f3b-40f3-8228-7704c90e4aad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\8mileroad.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\8mileroad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\933e2af0-616b-4463-a328-bb3522af75e7.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\933e2af0-616b-4463-a328-bb3522af75e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\Esaretin-bedeli.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\Esaretin-bedeli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\MV5BMTYwMzMwMzgxNl5BMl5BanBnXkFtZTgwMTA0MTUzMDI@._V1_.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\MV5BMTYwMzMwMzgxNl5BMl5BanBnXkFtZTgwMTA0MTUzMDI@._V1_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\The-Godfather-1.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\The-Godfather-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\b348b996-3374-4e14-b584-f3c0dc075bef.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\b348b996-3374-4e14-b584-f3c0dc075bef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\barbie.jpeg",
+      "PackagePath": "staticwebassets\\images\\Movie\\barbie.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\c4be7cad-4b59-4ece-bb6f-ae4e2d1e0c3b.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\c4be7cad-4b59-4ece-bb6f-ae4e2d1e0c3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\cinayetsusu.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\cinayetsusu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\climax.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\climax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\darknight.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\darknight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\dc7c5480-b22f-4b18-bd6e-4cf3c133da84.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\dc7c5480-b22f-4b18-bd6e-4cf3c133da84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\ebc47bba-9b8c-47d4-a7c1-76bc59378771.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\ebc47bba-9b8c-47d4-a7c1-76bc59378771.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\f4fd6f57-b519-41de-823f-0018f217b8ae.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\f4fd6f57-b519-41de-823f-0018f217b8ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\f60cf895-a8a5-42f4-8acd-7de7100b3fad.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\f60cf895-a8a5-42f4-8acd-7de7100b3fad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\olumlu-dunya.jpg",
+      "PackagePath": "staticwebassets\\images\\Movie\\olumlu-dunya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\images\\Movie\\oppenheimer.png",
+      "PackagePath": "staticwebassets\\images\\Movie\\oppenheimer.png"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ataar\\OneDrive\\Masaüstü\\FilmDukkaniReal\\FilmDukkani.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FilmDukkani.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FilmDukkani.MVC.props",
+      "PackagePath": "build\\FilmDukkani.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FilmDukkani.MVC.props",
+      "PackagePath": "buildMultiTargeting\\FilmDukkani.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FilmDukkani.MVC.props",
+      "PackagePath": "buildTransitive\\FilmDukkani.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

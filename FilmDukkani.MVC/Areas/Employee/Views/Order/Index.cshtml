@@ -1,0 +1,62 @@
+﻿@model List<Order>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="container mt-5">
+    <h2>Sipariş Listesi</h2>
+
+    @if (ViewBag.ChangeError != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ChangeError
+        </div>
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Sipariş No</th>
+                <th>Müşteri Id</th>
+                <th>Sipariş Tarihi</th>
+                <th>Film Id</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            
+
+            @foreach (var order in Model)
+            {
+                if (order.IsActive == true)
+                {
+                    <tr>
+                        <td>@order.OrderNumber</td>
+                        <td>@order.UserId</td>
+                        <td>@order.CreatedDate</td>
+                        <td>
+                            <ul>
+                                @foreach (var orderMovie in order.OrderMovies)
+                                {
+                                    <li>@orderMovie.MovieId</li>
+                                }
+                            </ul>
+                        </td>
+                        <td>
+                            <form asp-controller="Order" asp-action="ConfirmOrder" method="post">
+                                <input type="hidden" name="id" value="@order.Id" />
+                                <button type="submit" class="btn btn-success">Onayla</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+                
+            }
+        </tbody>
+    </table>
+</div>

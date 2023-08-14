@@ -1,0 +1,29 @@
+﻿@model List<FilmDukkani.MVC.DTO.MovieDTO>
+
+@{
+    ViewData["Title"] = "Film Listesi - " + ViewBag.GenreName;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h1>@ViewBag.GenreName Filmleri</h1>
+    <div class="row">
+        @foreach (var movie in Model)
+        {
+            @if (movie.IsActive)
+            {
+                <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/images/Movie/@movie.PicturePath" class="card-img-top" alt="@movie.MovieRealName">
+                        <div class="card-body">
+                            <h5 class="card-title">@movie.MovieRealName</h5>
+                            <p class="card-text">@movie.Description</p>
+                            <a href="@Url.Action("Details", "Home", new { id = movie.Id })" class="btn btn-primary">Detaylar</a>
+                            <a href="@Url.Action("AddToCart", "Home", new { id = movie.Id })" class="btn btn-success">Listene Ekle</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

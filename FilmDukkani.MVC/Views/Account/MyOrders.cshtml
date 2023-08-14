@@ -1,0 +1,63 @@
+﻿@model List<FilmDukkani.MVC.DTO.OrderDTO>
+
+@{
+    ViewData["Title"] = "Siparişlerim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Siparişlerim</h2>
+    <div class="row">
+        @foreach (var order in Model)
+        {
+            if (order.IsActive && !order.IsShipped)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Sipariş Numarası: @order.OrderNumber</span>
+                            <span>@order.OrderDate</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Filmler</h5>
+                            <ul class="list-group">
+                                @foreach (var movie in order.Movies)
+                                {
+                                    <li class="list-group-item">@movie.MovieRealName</li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            @if (order.IsActive)
+                            {
+                                <span class="text-success">Sipariş Aktif</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Sipariş Pasif</span>
+                            }
+
+                            @if (order.IsActive)
+                            {
+                                if (!order.IsShipped)
+                                {
+                                    <a class="btn btn-danger" asp-action="CancelOrder" asp-controller="Account" asp-route-orderId="@order.OrderNumber">İptal Et</a>
+                                }
+                            }
+
+                            @if (order.IsShipped)
+                            {
+                                <span class="text-success">Kargolandı</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Kargolanmadı</span>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

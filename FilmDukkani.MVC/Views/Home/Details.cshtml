@@ -1,0 +1,56 @@
+﻿@model MovieDTO
+@{
+    ViewData["Title"] = "Detaylar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="~/images/Movie/@Model.PicturePath" class="img-fluid" alt="@Model.MovieRealName">
+        </div>
+        <div class="col-md-8">
+            <h1>@Model.MovieRealName</h1>
+            <p>@Model.Description</p>
+            <p><strong>Türkçe Adı:</strong> @Model.MovieName</p>
+            <p><strong>Yıl:</strong> @Model.YearOfMovie</p>
+            <p><strong>Dublaj:</strong> @((Model.IsTurkishDubbing ?? false) ? "Var" : "Yok")</p>
+            <p><strong>Altyazı:</strong> @((Model.IsTurkishSubtitles ?? false) ? "Var" : "Yok")</p>
+            <p><strong>Surround:</strong> @((Model.IsSurround ?? false) ? "Var" : "Yok")</p>
+            <p><strong>Film Ödülleri:</strong> @Model.MovieTrophies</p>
+
+            <h2>Türler</h2>
+            @if (Model.GenreList != null)
+            {
+                <ul>
+                    @foreach (var genre in Model.GenreList)
+                    {
+                        <li>@genre.GenreName</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Tür bilgisi bulunmamaktadır.</p>
+            }
+
+            <h2>Oyuncular</h2>
+            @if (Model.ActorList != null)
+            {
+                <ul>
+                    @foreach (var actor in Model.ActorList)
+                    {
+                        <li>@actor.ActorName</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Oyuncu bilgisi bulunmamaktadır.</p>
+            }
+
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Geri Dön</a>
+            <a asp-action="AddToCart" asp-controller="Home" asp-route-id="@Model.Id" class="btn btn-success">Listeye Ekle</a>
+        </div>
+    </div>
+</div>

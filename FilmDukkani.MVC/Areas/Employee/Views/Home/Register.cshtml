@@ -1,0 +1,76 @@
+﻿@model RegisterDTO
+@using FilmDukkani.MVC.DTO;
+@{
+    ViewData["Title"] = "Yeni Çalışan";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Yeni Çalışan Kaydet</h5>
+                    <form asp-area="Employeee" asp-controller="Home" asp-action="Register" method="post">
+
+
+                        <div class="mb-3">
+                            <label asp-for="MailAddress"></label>
+                            <span asp-validation-for="MailAddress"></span>
+                            <input type="email" class="form-control" asp-for="MailAddress" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FirstName"></label>
+                            <span asp-validation-for="FirstName"></span>
+                            <input type="text" class="form-control" asp-for="FirstName" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="LastName"></label>
+                            <span asp-validation-for="LastName"></span>
+                            <input type="text" class="form-control" asp-for="LastName" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Username"></label>
+                            <span asp-validation-for="Username"></span>
+                            <input type="text" class="form-control" asp-for="Username" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Password"></label>
+                            <span asp-validation-for="Password"></span>
+                            <input type="password" class="form-control" asp-for="Password" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ConfirmPassword"></label>
+                            <span asp-validation-for="ConfirmPassword"></span>
+                            <input type="password" class="form-control" asp-for="ConfirmPassword" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Address"></label>
+                            <span asp-validation-for="Address"></span>
+                            <input type="text" class="form-control" asp-for="Address" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PhoneNumber"></label>
+                            <span asp-validation-for="PhoneNumber"></span>
+                            <input type="text" class="form-control" asp-for="PhoneNumber" />
+                        </div>
+
+
+
+
+
+
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿@model Director
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Yönetmen Güncelle</h2>
+    <form asp-action="Update" enctype="multipart/form-data" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label for="DirectorName">Yönetmen Adı</label>
+            <input type="text" class="form-control" id="Title" name="DirectorName" asp-for="DirectorName">
+        </div>
+
+
+
+        <br />
+
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </form>
+</div>

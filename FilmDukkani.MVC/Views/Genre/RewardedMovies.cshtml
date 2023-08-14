@@ -1,0 +1,27 @@
+﻿@model List<MovieDTO>
+@{
+    ViewData["Title"] = "Ödüllü Filmler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var movie in Model)
+        {
+            @if (movie.IsActive)
+            {
+                <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/images/Movie/@movie.PicturePath" class="card-img-top" alt="@movie.MovieRealName">
+                        <div class="card-body">
+                            <h5 class="card-title">@movie.MovieRealName</h5>
+                            <p class="card-text">@movie.Description</p>
+                            <a asp-action="Details" asp-controller="Home" asp-route-id="@movie.Id" class="btn btn-primary">Detaylar</a>
+                            <a asp-action="AddToCart" asp-controller="Home" asp-route-id="@movie.Id" class="btn btn-success">Listene Ekle</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

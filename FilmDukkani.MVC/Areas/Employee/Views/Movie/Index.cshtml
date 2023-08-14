@@ -1,0 +1,46 @@
+﻿@model List<Movie>
+@{
+    ViewData["Title"] = "Film Listesi";
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-between">
+        <div class="row justify-content-between align-items-center">
+            <h2 class="col-6">Film Listesi</h2>
+            <a asp-action="Create" asp-controller="Movie" asp-area="Employee" class="btn btn-success col-2">
+                <i class="fa-solid fa-plus"></i> Film Ekle
+            </a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Film Adı</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Id</td>
+                    <td>@movie.MovieRealName</td>
+                    <td>
+
+                        <a asp-action="Delete" asp-controller="Movie" asp-area="Employee"  asp-route-id="@movie.Id" class="btn btn-danger">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+
+                        <a asp-action="Update" asp-controller="Movie" asp-area="Employee" asp-route-id="@movie.Id" class="btn btn-warning">
+
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

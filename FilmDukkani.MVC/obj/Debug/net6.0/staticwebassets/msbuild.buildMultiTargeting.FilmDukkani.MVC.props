@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FilmDukkani.MVC.props" />
+</Project>
